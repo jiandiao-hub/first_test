@@ -7,8 +7,8 @@ int main(){
 
     srand((unsigned int)time(NULL));
     // 定义随机数范围
-    int min = 1;
-    int max = 20;
+    int min = 100;
+    int max = 200;
     // 生成两个 [min, max] 范围内的随机整数
     int num1 = rand() % (max - min + 1) + min;
     int num2 = rand() % (max - min + 1) + min;
@@ -17,4 +17,4 @@ int main(){
     int result = add(num1,num2);
     printf("num1 + num2 = %d\n", result);
     return 0;
-}
+}   
